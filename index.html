@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Trivia Game</h1>
+  <form id="form-usuario">
+    <label for="nombre">Ingrese su nombre:</label>
+    <input type="text" id="nombre" required>
+    <br><br>
+    <label for="categoria">Elija una categoría:</label>
+    <select id="categoria">
+      <option value="history">Historia</option>
+      <option value="science">Ciencia</option>
+      <option value="sports">Deportes</option>
+      <option value="entertainment">Entretenimiento</option>
+      <option value="geography">Geografía</option>
+    </select>
+    <br><br>
+    <button type="submit">Comenzar</button>
+  </form>
+  <br>
+  <div id="preguntas-container">
+    <h2 id="pregunta"></h2>
+    <form id="form-preguntas">
+      <div id="respuestas"></div>
+      <button type="submit">Siguiente</button>
+    </form>
+  </div>
+  <br>
+  <h2 id="tiempo"></h2>
+  <br>
+  <h2 id="resultado"></h2>
+  <br>
+  <h2 id="ranking"></h2>
+  <script src="script.js"></script>
+</body>
+</html>

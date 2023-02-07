@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+  }
+  
+  #preguntas-container {
+    display: none;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: aqua;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  #preguntas-container {
+    display: none;
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  #pregunta {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #respuestas {
+    margin-bottom: 20px;
+  }
+  
+  #tiempo {
+    margin-top: 50px;
+  }
+  
+  #resultado {
+    margin-top: 50px;
+  }
+  
+  #ranking {
+    margin-top: 50px;
+  }
+  
